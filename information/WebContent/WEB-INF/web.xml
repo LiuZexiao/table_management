@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+	<display-name>information</display-name>
+	<!-- session 存活时间 
+	<session-config>
+  	<session-timeout>15</session-timeout>
+  	</session-config> -->
+  	
+	<!-- servlet配置 -->
+	<servlet><!-- 登陆  -->
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.information.servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet><!-- 我的信息 -->
+		<servlet-name>UserinfoServlet</servlet-name>
+		<servlet-class>com.information.servlet.UserinfoServlet</servlet-class>
+	</servlet>
+	<servlet><!-- 修改我的密码 -->
+		<servlet-name>MyUpdataPasswordServlet</servlet-name>
+		<servlet-class>com.information.servlet.MyUpdataPasswordServlet</servlet-class>
+	</servlet>
+	<servlet><!-- 修改我的信息 -->
+		<servlet-name>MyUpdataInfoServlet</servlet-name>
+		<servlet-class>com.information.servlet.MyUpdataInfoServlet</servlet-class>
+	</servlet>
+	<servlet><!-- 技能竞赛填报 -->
+		<servlet-name>AddAwardServlet</servlet-name>
+		<servlet-class>com.information.servlet.AddAwardServlet</servlet-class>
+	</servlet>
+	<servlet><!-- 科研成果填报 -->
+		<servlet-name>AddScientificServlet</servlet-name>
+		<servlet-class>com.information.servlet.AddScientificServlet</servlet-class>
+	</servlet>
+	<servlet><!-- 添加用户 -->
+		<servlet-name>AddUserServlet</servlet-name>
+		<servlet-class>com.information.servlet.AddUserServlet</servlet-class>
+	</servlet>
+	<servlet><!-- 修改用户信息 -->
+		<servlet-name>UpdataUserServlet</servlet-name>
+		<servlet-class>com.information.servlet.UpdataUserServlet</servlet-class>
+	</servlet>
+	<servlet><!-- 修改技能竞赛 -->
+		<servlet-name>UpdataAwardServlet</servlet-name>
+		<servlet-class>com.information.servlet.UpdataAwardServlet</servlet-class>
+	</servlet>
+	<servlet><!-- 修改科研成果 -->
+		<servlet-name>UpdataScientificServlet</servlet-name>
+		<servlet-class>com.information.servlet.UpdataScientificServlet</servlet-class>
+	</servlet>
+	<servlet><!-- 用户列表信息 -->
+		<servlet-name>UserPageServlet</servlet-name>
+		<servlet-class>com.information.servlet.UserPageServlet</servlet-class>
+	</servlet>
+	<servlet><!-- 删除用户信息 -->
+		<servlet-name>DeleteUserServlet</servlet-name>
+		<servlet-class>com.information.servlet.DeleteUserServlet</servlet-class>
+	</servlet>
+	<servlet><!-- 技能竞赛列表信息 -->
+		<servlet-name>AwardPageServlet</servlet-name>
+		<servlet-class>com.information.servlet.AwardPageServlet</servlet-class>
+	</servlet>
+	<servlet><!-- 删除技能竞赛 -->
+		<servlet-name>DeleteAwardServlet</servlet-name>
+		<servlet-class>com.information.servlet.DeleteAwardServlet</servlet-class>
+	</servlet>
+	<servlet><!-- 科研成果列表信息 -->
+		<servlet-name>ScientificPageServlet</servlet-name>
+		<servlet-class>com.information.servlet.ScientificPageServlet</servlet-class>
+	</servlet>
+	<servlet><!-- 删除科研成果 -->
+		<servlet-name>DeleteScientificServlet</servlet-name>
+		<servlet-class>com.information.servlet.DeleteScientificServlet</servlet-class>
+	</servlet>
+	<servlet><!-- 上传 -->
+		<servlet-name>Upload</servlet-name>
+		<servlet-class>com.information.servlet.Upload</servlet-class>
+	</servlet>
+	<servlet><!-- 导出技能竞赛列表  -->
+		<servlet-name>OutPutAwardServlet</servlet-name>
+		<servlet-class>com.information.servlet.OutPutAwardServlet</servlet-class>
+	</servlet>
+	<servlet><!-- 导出科研列表  -->
+		<servlet-name>OutPutScientificServlet</servlet-name>
+		<servlet-class>com.information.servlet.OutPutScientificServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserinfoServlet</servlet-name>
+		<url-pattern>/UserinfoServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MyUpdataPasswordServlet</servlet-name>
+		<url-pattern>/MyUpdataPasswordServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MyUpdataInfoServlet</servlet-name>
+		<url-pattern>/MyUpdataInfoServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddAwardServlet</servlet-name>
+		<url-pattern>/AddAwardServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddScientificServlet</servlet-name>
+		<url-pattern>/AddScientificServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddUserServlet</servlet-name>
+		<url-pattern>/AddUserServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdataUserServlet</servlet-name>
+		<url-pattern>/UpdataUserServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdataAwardServlet</servlet-name>
+		<url-pattern>/UpdataAwardServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdataScientificServlet</servlet-name>
+		<url-pattern>/UpdataScientificServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserPageServlet</servlet-name>
+		<url-pattern>/UserPageServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteUserServlet</servlet-name>
+		<url-pattern>/DeleteUserServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AwardPageServlet</servlet-name>
+		<url-pattern>/AwardPageServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteAwardServlet</servlet-name>
+		<url-pattern>/DeleteAwardServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ScientificPageServlet</servlet-name>
+		<url-pattern>/ScientificPageServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteScientificServlet</servlet-name>
+		<url-pattern>/DeleteScientificServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Upload</servlet-name>
+		<url-pattern>/Upload</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>OutPutAwardServlet</servlet-name>
+		<url-pattern>/OutPutAwardServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>OutPutScientificServlet</servlet-name>
+		<url-pattern>/OutPutScientificServlet</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
