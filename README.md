@@ -45,6 +45,10 @@
 
 ## 图片预览
 
+![image](https://github.com/LiuZexiao/table_management/tree/master/table_management/static/img/TIM截图20181001105749.png)
+![image](https://github.com/LiuZexiao/table_management/tree/master/table_management/static/img/TIM截图20181001162850.png)
+![image](https://github.com/LiuZexiao/table_management/tree/master/table_management/static/img/TIM截图20181002111034.png)
+![image](https://github.com/LiuZexiao/table_management/tree/master/table_management/static/img/TIM截图20181001105749.png)
 ## 总结
 
 这是一次对所学前端与后端技术的一次实践，前端方面：掌握了vue一些高级应用以及对element组件库的使用，对vue的组件化开发有了更深层次的理解；后端方面：更加熟练的使用JAVA，对三层架构的设计模式有了进一步的认识；
