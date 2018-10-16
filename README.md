@@ -44,10 +44,13 @@
 * 导出报表信息到 excel 表中
 
 ## 图片预览
-
+* 用户登录
 ![image](https://github.com/LiuZexiao/table_management/tree/master/table_management/static/img/TIM截图20181001093402.png)
+* 登录首页
 ![image](https://github.com/LiuZexiao/table_management/tree/master/table_management/static/img/TIM截图20181001105749.png)
+* 管理报表页面
 ![image](https://github.com/LiuZexiao/table_management/tree/master/table_management/static/img/TIM截图20181001162850.png)
+* 用户管理页面
 ![image](https://github.com/LiuZexiao/table_management/tree/master/table_management/static/img/TIM截图20181002111034.png)
 
 ## 总结
